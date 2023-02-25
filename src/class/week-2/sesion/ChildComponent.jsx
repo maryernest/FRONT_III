@@ -6,7 +6,11 @@ const ChildComponent = ({ type }) => {
   return (
     <div className="hijo">
       <h3>Tipo de Pokémon: {type}</h3>
-      <div style={{ display: "flex", flexWrap: "wrap", gap: "10px" }}>
+      <div 
+      style={{
+        display: "flex", 
+        flexWrap: "wrap", 
+        gap: "10px" }}>
         {
           data.map(pokemon => (
             <GrandChildComponent

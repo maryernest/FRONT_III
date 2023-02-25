@@ -16,9 +16,8 @@ const colorPicket = (type) => {
 
 const GrandChildComponent = ({ id, name, avatar, powerLevel, type }) => {
   return (
-    <div
-      className='nieto'
-      style={{
+    <div className='nieto'
+    style={{
         width: "150px",
         backgroundColor: `${colorPicket(type)}`,
         color: "white"
