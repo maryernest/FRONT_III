@@ -28,7 +28,11 @@ export const App = () => {
 
 {/* ===============================POKEMON============================ */}
       
-      < PadrePokemon />
+      < PadrePokemon type="water" />
+      < PadrePokemon type="electric" />
+      < PadrePokemon type="air" />
+      < PadrePokemon type="fire" />
+
 
 
 
